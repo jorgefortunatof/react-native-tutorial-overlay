@@ -28,7 +28,7 @@ const TutorialOverlay: React.FC<TutorialOverlayProps> = ({
   const renderShape = useCallback(() => {
     if (shape === 'circle') {
       return <Circle cx={x} cy={y} r={radius} fill="black" />;
-    } else if (shape === 'square') {
+    } else if (shape === 'rectangle') {
       return (
         <Rect
           x={x}

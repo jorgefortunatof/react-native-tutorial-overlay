@@ -36,7 +36,7 @@ export default function App() {
         <Text style={styles.taskDescription}>finish task 01</Text>
       </View>
 
-      <TutorialOverlay x="10" y="80" width="95%" height="120" shape="square">
+      <TutorialOverlay x="10" y="80" width="95%" height="120" shape="rectangle">
         <View style={styles.tutorialContainer}>
           <Text style={styles.tutorialText}>Here you can check your tasks</Text>
         </View>
@@ -84,10 +84,10 @@ const styles = StyleSheet.create({
 | **`shape`**           | `circle`             | `string`          | shape of the hole                                      |
 | **`x`**               | `0`                  | `number / string` | x position of the role                                 |
 | **`y`**               | `0`                  | `number / string` | y position of the role                                 |
-| **`width`**           | `100`                | `number / string` | width of rectangle (only for `square` shape)           |
-| **`height`**          | `100`                | `number / string` | height of rectangle (only for `square` shape)          |
+| **`width`**           | `100`                | `number / string` | width of rectangle (only for `rectangle` shape)        |
+| **`height`**          | `100`                | `number / string` | height of rectangle (only for `rectangle` shape)       |
 | **`radius`**          | `100`                | `number`          | radius of circle (only for `circle` shape)             |
-| **`borderRadius`**    | `10`                 | `number`          | border radius of the hole (only for `square` shape)    |
+| **`borderRadius`**    | `10`                 | `number`          | border radius of the hole (only for `rectangle` shape) |
 | **`backgroundColor`** | `rgba(0, 0, 0, 0.9)` | `string`          | background color of the overlay                        |
 
 

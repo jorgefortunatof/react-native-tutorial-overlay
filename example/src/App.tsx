@@ -16,7 +16,7 @@ export default function App() {
         <Text style={styles.taskDescription}>finish task 01</Text>
       </View>
 
-      <TutorialOverlay x="10" y="80" width="95%" height="120" shape="square">
+      <TutorialOverlay x="10" y="80" width="95%" height="120" shape="rectangle">
         <View style={styles.tutorialContainer}>
           <Text style={styles.tutorialText}>Here you can check your tasks</Text>
         </View>
