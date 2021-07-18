@@ -2,7 +2,7 @@
 
 A React Native layer component to build apps tutorials guide.
 
-<img src="screenshot.jpg" alt="screenshot" width="300"/>
+<img src="./screenshot.jpg" alt="screenshot" width="300"/>
 
 ## ► Installation
 
