@@ -1,0 +1,22 @@
+{
+  "name": "react-native-tutorial-overlay-example",
+  "displayName": "TutorialOverlay Example",
+  "expo": {
+    "name": "react-native-tutorial-overlay-example",
+    "slug": "react-native-tutorial-overlay-example",
+    "description": "Example app for react-native-tutorial-overlay",
+    "privacy": "public",
+    "version": "1.0.0",
+    "platforms": [
+      "ios",
+      "android",
+      "web"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ]
+  }
+}
