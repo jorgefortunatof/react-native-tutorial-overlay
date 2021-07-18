@@ -19,6 +19,7 @@ npm install react-native-tutorial-overlay
 
 ## ► Usage Example
 ```jsx
+import { View, Text, StyleSheet } from 'react-native';
 import TutorialOverlay from "react-native-tutorial-overlay";
 
 export default function App() {
