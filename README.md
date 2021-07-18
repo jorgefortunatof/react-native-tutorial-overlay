@@ -2,7 +2,7 @@
 
 A React Native layer component to build apps tutorials guide.
 
-<img src="./screenshot.jpg" alt="screenshot" width="300"/>
+<img src="https://github.com/jorgefortunatof/react-native-tutorial-overlay/blob/master/screenshot.png" alt="screenshot" width="300"/>
 
 ## ► Installation
 
@@ -83,10 +83,10 @@ const styles = StyleSheet.create({
 | Prop                  | Default Value        | Type              | Description                                            |
 | --------------------- | -------------------- | ----------------- | ------------------------------------------------------ |
 | **`shape`**           | `circle`             | `string`          | shape of the hole                                      |
-| **`x`**               | `0`                  | `number | string` | x position of the role                                 |
-| **`y`**               | `0`                  | `number | string` | y position of the role                                 |
-| **`width`**           | `100`                | `number | string` | width of rectangle (\* only for `rect` shape)          |
-| **`height`**          | `100`                | `number | string` | height of rectangle (\* only for `rect` shape)         |
+| **`x`**               | `0`                  | `number / string` | x position of the role                                 |
+| **`y`**               | `0`                  | `number / string` | y position of the role                                 |
+| **`width`**           | `100`                | `number / string` | width of rectangle (\* only for `rect` shape)          |
+| **`height`**          | `100`                | `number / string` | height of rectangle (\* only for `rect` shape)         |
 | **`radius`**          | `100`                | `number`          | radius of circle (\* only for `circle` shape)          |
 | **`borderRadius`**    | `10`                 | `number`          | border radius of the hole (\* only for `square` shape) |
 | **`backgroundColor`** | `rgba(0, 0, 0, 0.9)` | `string`          | background color of the overlay                        |
