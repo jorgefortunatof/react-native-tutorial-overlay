@@ -13,9 +13,14 @@ npm install react-native-tutorial-overlay
 ```js
 import TutorialOverlay from "react-native-tutorial-overlay";
 
-// ...
+export default function App() {
 
-const result = await TutorialOverlay.multiply(3, 7);
+  return (
+    <TutorialOverlay shape="circle" x="200" y="300">
+      <Text style={{ color: 'white' }}>Text guide inside layer</Text>
+    </TutorialOverlay>
+  );
+}
 ```
 
 ## Contributing

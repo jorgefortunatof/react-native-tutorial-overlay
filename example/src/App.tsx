@@ -1,31 +1,6 @@
 import * as React from 'react';
-
-import { StyleSheet, View, Text } from 'react-native';
 import TutorialOverlay from 'react-native-tutorial-overlay';
 
 export default function App() {
-  const [result, setResult] = React.useState<number | undefined>();
-
-  React.useEffect(() => {
-    TutorialOverlay.multiply(3, 7).then(setResult);
-  }, []);
-
-  return (
-    <View style={styles.container}>
-      <Text>Result: {result}</Text>
-    </View>
-  );
+  return <TutorialOverlay x="50%" y="40%" shape="circle" />;
 }
-
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    alignItems: 'center',
-    justifyContent: 'center',
-  },
-  box: {
-    width: 60,
-    height: 60,
-    marginVertical: 20,
-  },
-});
