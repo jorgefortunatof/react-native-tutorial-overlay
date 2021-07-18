@@ -1,6 +1,6 @@
 # React Native Tutorial Overlay
 
-A React Native layer component to build apps tutorials guide.
+A React Native layer component to build tutorials guide.
 
 <img src="https://github.com/jorgefortunatof/react-native-tutorial-overlay/blob/master/screenshot.png" alt="screenshot" width="280"/>
 
