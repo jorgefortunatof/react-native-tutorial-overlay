@@ -4,7 +4,7 @@ A React Native layer component to build tutorials.
 
 <img src="https://github.com/jorgefortunatof/react-native-tutorial-overlay/blob/master/screenshot.png" alt="screenshot" width="280"/>
 
-## ► Installation
+## ‣ Installation
 - First if you are using a bare React Native project you are going to need to install `react-native-svg`
 
 ```jsx
@@ -17,7 +17,7 @@ npm install react-native-svg
 npm install react-native-tutorial-overlay
 ```
 
-## ► Usage Example
+## ‣ Usage Example
 ```jsx
 import { View, Text, StyleSheet } from 'react-native';
 import TutorialOverlay from "react-native-tutorial-overlay";
@@ -77,7 +77,7 @@ const styles = StyleSheet.create({
 });
 ```
 
-## ► All Properties
+## ‣ All Properties
 
 | Prop                  | Default Value        | Type              | Description                                            |
 | --------------------- | -------------------- | ----------------- | ------------------------------------------------------ |
@@ -91,10 +91,10 @@ const styles = StyleSheet.create({
 | **`backgroundColor`** | `rgba(0, 0, 0, 0.9)` | `string`          | background color of the overlay                        |
 
 
-## ► Contributing
+## ‣ Contributing
 
 See the [contributing guide](CONTRIBUTING.md) to learn how to contribute to the repository and the development workflow.
 
-## ► License
+## ‣ License
 
 MIT
